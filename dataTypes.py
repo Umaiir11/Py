@@ -79,3 +79,61 @@ print("Developer: ", developers[3]) # print value from list index
 #print index of Ali from list 
 print("Developer: ", developers.index("Ali")) 
 
+
+
+# 📦 Dictionary kya hota hai?
+
+#Ek dict (dictionary) basically aesa dabba hai jismein key aur uski value hoti hai.
+#Bilkul jaise human dictionary:
+#Word = "Flutter"
+#Meaning = "Mobile UI Framework"
+#Python dict mein:
+#python
+#Copy
+#Edit
+#dictionary = {
+ # "Flutter": "Mobile UI Framework",
+  #"Umair": "Flutter Dev"
+#}
+#Iska matlab:
+#📍 Jab aap "Flutter" poochhoge to wo "Mobile UI Framework" dega.
+
+#create
+newdict :Optional[dict] = {
+    
+    'Name': 'Umair',
+    'Designation': 'Fluter Dev'
+}
+
+#acces
+#print value of that key 
+print(f"Dict key values: {newdict["Name"]}") 
+print(f"Whole Dict {newdict.items() }") 
+
+#newdict.keys()       # sab keys
+#newdict.values()     # sab values
+#newdict.items()      # key, value tuples
+#newdict.get("key")   # safe access
+#newdict.update(new)  # add/update values
+#newdict.pop("key")   # ek key hatao
+
+
+#Nested Dictionary:
+
+data = {
+    "Umair": {
+        "age": 27,
+        "skills": ["Flutter", "Dart"],
+        "isSenior": True
+    }
+}
+
+#print(data["Umair"]["skills"][0]) 
+#`print(data) 
+
+
+
+
+
+
+
