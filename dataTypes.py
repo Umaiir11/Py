@@ -28,3 +28,15 @@ print("Total Multiply hai:", totalMultiply)
 # ➗ Divide kar rahe hain
 totalDivide: Optional[float] = a / b
 print("Total Divide hai:", totalDivide)
+
+#2. Float (float)
+
+# Float ka matlab: decimal numbers hain
+# 🔸 Ye dono float numbers hai
+c: Optional[float]=33.5
+d: Optional[float]=55.3
+totalFloat: Optional[float] = None
+
+
+totalAddFloat: Optional[float] = c + d
+print("Here's float Total: ",totalFloat)
