@@ -1,0 +1,15 @@
+✅ Step-by-step: Fix "python: command not found" in VS Code
+ Press Cmd + Shift + P → 
+ Preferences: Open Settings (JSON)
+
+1. ✅ Open User Settings (JSON)
+
+
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "git.autofetch": true,
+    "code-runner.executorMap": {
+        "python": "python3"
+    }
+}
