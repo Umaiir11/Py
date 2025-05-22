@@ -40,3 +40,27 @@ totalFloat: Optional[float] = None
 
 totalAddFloat: Optional[float] = c + d
 print("Here's float Total: ",totalFloat)
+
+#String (str)
+# String ka matlab: text ya characters hain
+# 🔸 Ye dono string hai nullable
+
+e : Optional [str]="Umair"
+f: Optional [str]="Hashmi"
+print("Strings are : ", e,f)
+print("Hello " + e + " " + f + " welcome to Python!")
+
+#boolean (bool)
+# Boolean ka matlab: True ya False hai
+# 🔸 Ye dono boolean ha
+
+age :Optional[int]= 25
+hasLogin: Optional[bool]=None
+hasLogin = age>24
+print("Has Login:", hasLogin)
+
+a: Optional[int] =112
+b: Optional[int] = 45
+isGreater: Optional[bool]=None
+isGreater = a > b
+print("Is "+str(a)+" Greater than "+str(b)+"  :", isGreater)
